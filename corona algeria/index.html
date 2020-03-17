@@ -124,14 +124,7 @@
             id: 'mapbox/streets-v11'
         }).addTo(mymap);
 
-        //An example of a marker, we can color code markers and assign a color for each type. for example, blue for Dairas and red for wilayas
-        //We can either hard code wilayas here or (preferably) put them inside an array and loop through them then add them to the mymap object
-        //	[
-        //		"state_name":"Djelfa",
-        //		"state_coordinates_x":"X",
-        //		"state_coordinates_y":"Y",
-        //		"number_of_votes":"V",
-        //	]
+   
        
         var firstMarker = L.marker([36.481239,2.7301508,12]).addTo(mymap);
         firstMarker.bindPopup("<b style='color:red ; direction:rtl;'>البليدة</b><br> عدد الإصابات 54 عدد الوفيات 04 عدد الحالات قيد التعافي 38 عدد الحالات التي شفيت 12.");
